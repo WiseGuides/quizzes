@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 16</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="javascript">1. Which code snippet will select an element with an <code>id</code> of <code>"featured"</code>?</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1" class="code">DOM.find(id="featured")</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2" class="code">document.find( (line) => line.id === "featured"))</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3" class="code">findElement('#id:featured')</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4" class="code">document.getElementById('featured')</label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="javascript">2. A file path that specifies the file beginning with <code>http://</code> is called an <i>absolute</i> file path.</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">3. Which of these is an ill-formed file path?</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" /> 
+        <label for="q3a1" class="code">&lt;img src=".../"pic.png" /></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2" class="code">&lt;img src="../../../pic.png" /></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a3" value="3" /> 
+        <label for="q3a3" class="code">&lt;img src="pic.png" /></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a4" value="4" /> 
+        <label for="q3a4" class="code">&lt;img src="./pic.png" /></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">4. Which one of these is invalid?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">if (x) return "hello"</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">if (x === true) { return "hello" }</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">if ("x") return "hello"</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">if ((x > 10) == true) { return "hello" }</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">5. Which HTML element does <i>not</i> belong in the <code>&lt;head></code> element?</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1" class="code">&lt;title></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2" class="code">&lt;div></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3" class="code">&lt;meta></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4" class="code">&lt;script></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">6. The four most common values for the CSS <code>position</code> property are: <code>static, relative, fixed, absolute</code></p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">7. <code>let x = (true && "hello")</code> sets <code>x</code> equal to the string, "hello".</p>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a1" value="1" /> 
+        <label for="q7a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a2" value="2" /> 
+        <label for="q7a2">False</label>
+      </div>
+    </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

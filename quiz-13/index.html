@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 13</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="html">1. Which one of these is <i>not</i> a valid event?</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1" class="code">ondelay</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2" class="code">onclick</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3" class="code">onkeydown</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4" class="code">onload</label>
+      </div>   
+    </div>
+    <div class="question">
+      <p class="javascript">2. Strings can be contained by double quotes ("), single quotes(') or backticks (`)</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">3. What will this produce?<br /><code>let a=10, b="ten";<br />a+b</code></p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" /> 
+        <label for="q3a1" class="code">1010</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2" class="code">10ten</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a3" value="3" /> 
+        <label for="q3a3" class="code">20</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a4" value="4" /> 
+        <label for="q3a4" class="code">NaN</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">4. Which of these will include an image and set its width to 250px?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">&lt;image['image.png'] width:250></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">img('img.png', 250);</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">&lt;img src="image.png" dims=[250]></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">&lt;img src="image.png" width="250"></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">5. Using the <code>+</code> operator to join strings is called...</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">concatenation</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">spreading</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3">destructuring</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4">You can't use the <code>+</code> operator to join strings</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">6. JavaScript will automatically convert the string, <code>"true"</code>, to its boolean equivalent, <code>true</code>.</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">7. The HTML tag, <code>ul</code> creates a <i>uniform list</i>.</p>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a1" value="1" /> 
+        <label for="q7a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a2" value="2" /> 
+        <label for="q7a2">False</label>
+      </div>
+    </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

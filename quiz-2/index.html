@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 2</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="general">1. A technology that allows a programmer to override the default style of an element is...</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1">HTML</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2">XML</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3">CSS</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4">REPL</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">2. New elements can be added to HTML by prepending <span class="code">def-</span> to the element name.</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">3. A web page can have only one HTML element.</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" /> 
+        <label for="q3a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">4. Images must be placed within a div with a class of <span class="code">img</span></p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">5. An element that, by default, starts on the same "line" as a previous element is called a...</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">Sibling element</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">Inline element</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3">DOM element</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4">Adjacent element</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">6. Which of these is <i>not</i> a valid HTML tag?</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1" class="code">&lt;!DOCTYPE></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2" class="code">&lt;address></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a3" value="3" /> 
+        <label for="q6a3" class="code">&lt;blockquote></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a4" value="4" /> 
+        <label for="q6a4" class="code">&lt;adjacent></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">7. Which of these HTML properties must be unique on a given page?</p>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a1" value="1" /> 
+        <label for="q7a1" class="code">id</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a2" value="2" /> 
+        <label for="q7a2" class="code">name</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a3" value="3" /> 
+        <label for="q7a3" class="code">class</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a4" value="4" /> 
+        <label for="q7a4" class="code">type</label>
+      </div>
+    </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

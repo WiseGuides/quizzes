@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 10</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="javascript">1. When passing an argument to a JavaScript object, <code>students</code>, you would use...</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1" class="code">students[myArg]</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2" class="code">students(myArg)</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3" class="code">students.args[myArg]</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4">You can't pass an argument to an object.</label>
+      </div>   
+    </div>
+    <div class="question">
+      <p class="general">2. Can you link multiple CSS files to a single HTML page?</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">Yes</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">No</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">3. Which one of these tags does <i>not</i> use a matching end tag?</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" /> 
+        <label for="q3a1" class="code">&lt;html></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2" class="code">&lt;br></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a3" value="3" /> 
+        <label for="q3a3" class="code">&lt;body></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a4" value="4" /> 
+        <label for="q3a4" class="code">&lt;p></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">4. Which one of these can you <i>not</i> use as a CSS selector?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">.main .main {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">body {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">main>#main>.main {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">array {}</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">5. An array's <code>forEach</code> function requires you to pass it a function.</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">6. The HTML tag that provides a clickable HTML link is <code>&lt;link></code></p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="general">7. To specify a file called <code>index.css</code> in the parent directory, you would specify it as <code>"parent/index.css"</code></p>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a1" value="1" /> 
+        <label for="q7a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a2" value="2" /> 
+        <label for="q7a2">False</label>
+      </div>
+    </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

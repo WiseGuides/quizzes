@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 12</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="javascript">1. How do you declare a default value for a function argument when no argument is passed in?</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1" class="code">function meaningOfLife(arg:42){}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2" class="code">function meaningOfLife(arg || 42){}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3" class="code">function meaningOfLife(arg=42){}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4">You can't have a default value. A function that declares a parameter must be passed an argument. </label>
+      </div>   
+    </div>
+    <div class="question">
+      <p class="css">2. Can you specify generic fonts such as <code>sans-serif</code> instead of a specific font name?</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">Yes</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">No</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">3. Which CSS property generates space around an element's content, inside of any defined borders?</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" /> 
+        <label for="q3a1" class="code">padding</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2" class="code">outline</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a3" value="3" /> 
+        <label for="q3a3" class="code">margin</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a4" value="4" /> 
+        <label for="q3a4" class="code">breathing</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">4. Which one of these is <i>not</i> a valid way of creating a name/value pair?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">let name="Gen";</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">const name="Gen";</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">set name="Gen";</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">var name="Gen";</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">5. HTML links have native styling that can be overridden with CSS</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">6. You can add comments within an HTML file like this: <code>// This is a comment</code></p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">7. The most common variable naming style used by JavaScripters is <i>camel case</i>.</p>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a1" value="1" /> 
+        <label for="q7a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a2" value="2" /> 
+        <label for="q7a2">False</label>
+      </div>
+    </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
