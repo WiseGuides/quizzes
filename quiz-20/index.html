@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 20</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="html">1. Which code snippet will submit a form to <code>form-processor.rb</code>?</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1" class="code">&lt;form action="form-processor.rb"></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2" class="code">&lt;form submit="form-processor.rb"></label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3" class="code">&lt;form send="form-processor.rb"></label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4" class="code">&lt;form processor="form-processor.rb"></label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="javascript">2. In a <code>switch</code> statement, a case that should be executed if no other specified cases match is designated as <code>default:</code></p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="general">3. A window that "pops over" the current window and must be interacted with before being able to get back to the original window is called a...</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" />
+        <label for="q3a1">mandatory window</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2">interstitial</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a3" value="3" /> 
+        <label for="q3a3">DDM</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a4" value="4" /> 
+        <label for="q3a4">modal dialog</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">4. To declare a variable inside curly braces (aka a "block") that is only visible within that block and that cannot later be changed:</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">let city = "Las Vegas";</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">var city = "Las Vegas";</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">const city = "Las Vegas";</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">city = "Las Vegas";</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">5. A CSS selector that matches any <code>p</code> that is a descendant of a <code>div</code> with an <code>id</code> of <code>info</code>:</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1" class="code">div#info p{}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2" class="code">div[id="info"]{}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3" class="code">&lt;div id="info" &lt;p>>{}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4" class="code">#div/p.info{}</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">6. A function called with no argument where one had been specified in the function declaration will create an error.</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">7. The <code>select</code> element defines a drop-down list.</p>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a1" value="1" /> 
+        <label for="q7a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q7" id="q7a2" value="2" /> 
+        <label for="q7a2">False</label>
+      </div>
+    </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
