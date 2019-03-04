@@ -6,7 +6,7 @@ let gradeAnswers = () => {
 	}
 	
   // add correct class for right answers
-  let answers = [3,2,3,2,4,1,1];
+  let answers = [1,1,1,1,2,1,1];
   answers.forEach(function(element, index){
     document.getElementById(`q${index +1}a${element}`).nextSibling.nextSibling.classList.add('correct');
   });

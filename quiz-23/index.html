@@ -3,32 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Quiz 22</title>
+    <title>Quiz 23</title>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="question">
-      <p class="javascript">1. This is called a function ____?<br /><code>function sum(a,b) { return a + b }</code></p>
+      <p class="javascript">1. Which of these statements is true concerning this code?<code> let person = "Hal Helms"; let obj = { person };</code></p>
       <div class="answer">
         <input type="radio" name="q1" id="q1a1" value="1" /> 
-        <label for="q1a1">announcement</label>
+        <label for="q1a1">This is an example of property value shorthand. If the variable name of a value (<code>person</code> in this case) is the same as the object key, there's no need to specify both of them. </label>
       </div>
       <div class="answer">
         <input type="radio" name="q1" id="q1a2" value="2" /> 
-        <label for="q1a2">expression</label>
-      </div> 
-      <div class="answer">
-        <input type="radio" name="q1" id="q1a3" value="3" /> 
-        <label for="q1a3">declaration</label>
-      </div> 
-      <div class="answer">
-        <input type="radio" name="q1" id="q1a4" value="4" /> 
-        <label for="q1a4">reduction</label>
+        <label for="q1a2">This is an example of an error. Object properties are key/value <i>pairs</i> and you can't just use a single value, even if both key and value names are the same.</label>
       </div> 
     </div>
     <div class="question">
-      <p class="javascript">2. Since code is <i>executed</i> far more often than it's read by other programmers, you should prefer short variable and function names over longer, more expressive ones.</p>
+      <p class="css">2. Pseudo-classes specify a particular <i>state</i> of an element such as when a selected element is hovered over or when it's the first-child of a selected group.</p>
       <div class="answer">
         <input type="radio" name="q2" id="q2a1" value="1" /> 
         <label for="q2a1">True</label>
@@ -39,64 +31,56 @@
       </div>
     </div>
     <div class="question">
-      <p class="css">3. A CSS Selector that targets adjacent siblings:</p>
+      <p class="html">3. A <i>radio button</i> presents multiple options, only one of which can be chosen.</p>
       <div class="answer">
         <input type="radio" name="q3" id="q3a1" value="1" />
-        <label for="q3a1" class="code">div > p.info {}</label>
+        <label for="q3a1">True</label>
       </div>
       <div class="answer">
         <input type="radio" name="q3" id="q3a2" value="2" /> 
-        <label for="q3a2" class="code">div [p.info] {}</label>
-      </div>
-      <div class="answer">
-        <input type="radio" name="q3" id="q3a3" value="3" /> 
-        <label for="q3a3" class="code">div + p.info {}</label>
-      </div>
-      <div class="answer">
-        <input type="radio" name="q3" id="q3a4" value="4" /> 
-        <label for="q3a4" class="code">p.info > div {}</label>
+        <label for="q3a2">False</label>
       </div>
     </div>
     <div class="question">
-      <p class="html">4. Which one of these is <i>not</i> an HTML form element?</p>
+      <p class="javascript">4. Which one of these checks for the existence of a key within an object?</p>
       <div class="answer">
         <input type="radio" name="q4" id="q4a1" value="1" /> 
-        <label for="q4a1" class="code">&lt;input type="hidden"></label>
+        <label for="q4a1" class="code">if ( "firstName" in person ) </label>
       </div>
       <div class="answer">
         <input type="radio" name="q4" id="q4a2" value="2" /> 
-        <label for="q4a2" class="code">&lt;input type="object"></label>
+        <label for="q4a2" class="code">if ( person.firstName )</label>
       </div>
       <div class="answer">
         <input type="radio" name="q4" id="q4a3" value="3" /> 
-        <label for="q4a3" class="code">&lt;input type="time"></label>
+        <label for="q4a3" class="code">if ( person[firstName] )</label>
       </div>
       <div class="answer">
         <input type="radio" name="q4" id="q4a4" value="4" /> 
-        <label for="q4a4" class="code">&lt;input type="password"></label>
+        <label for="q4a4" class="code">if ( person:firstName )</label>
       </div>
     </div>
     <div class="question">
-      <p class="javascript">5. Passing an argument to a JavaScript object:</p>
+      <p class="javascript">5. Which is true for this given code: <br /><code>let x = {}; let y = x;</code></p>
       <div class="answer">
         <input type="radio" name="q5" id="q5a1" value="1" /> 
-        <label for="q5a1" class="code">Object(arg)</label>
+        <label for="q5a1">Because <code>x</code> and <code>y</code> are different objects, making a change to one will not affect the other.</label>
       </div>
       <div class="answer">
         <input type="radio" name="q5" id="q5a2" value="2" /> 
-        <label for="q5a2" class="code">Object.constructor(arg)</label>
+        <label for="q5a2">Adding a property to <code>x</code> will also add it to <code>y</code>. This is known as <i>copying by reference</i></label>
       </div>
       <div class="answer">
         <input type="radio" name="q5" id="q5a3" value="3" /> 
-        <label for="q5a3" class="code">Object[arg];</label>
+        <label for="q5a3">If a <i>simple</i> value is added to <code>x</code>, it will <i>not </i> be added to <code>y</code>.</label>
       </div>
       <div class="answer">
         <input type="radio" name="q5" id="q5a4" value="4" /> 
-        <label for="q5a4">You cannot pass an argument to a JavaScript object.</label>
+        <label for="q5a4">Since <code>x</code> is an empty object, trying to copy it will result in an error.</label>
       </div>
     </div>
     <div class="question">
-      <p class="css">6. <code>div ~ .info {}</code> selects <i>all</i> elements with a <code>class</code> of <code>info</code> that are children of <code>div</code> elements.</p>
+      <p class="html">6. An HTML checkbox offers the user multiple options, any or all of which may be selected.</p>
       <div class="answer">
         <input type="radio" name="q6" id="q6a1" value="1" /> 
         <label for="q6a1">True</label>
@@ -107,16 +91,16 @@
       </div>
     </div>
     <div class="question">
-      <p class="javascript">7. A JavaScript objects can hold both properties and functions. </p>
+      <p class="javascript">7. Which of the following is true, given this code? <br /><code>let a = 5; let b = a;</code> </p>
       <div class="answer">
-        <input type="radio" name="q7" id="q7a1" value="1" /> 
-        <label for="q7a1">True</label>
+          <input type="radio" name="q5" id="q7a1" value="1" /> 
+          <label for="q7a1">Changing the value of <code>a</code> will not change the value of <code>b</code> as <i>simple</i> values are <i>not</i> copied by reference, but by value.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a2" value="2" /> 
+          <label for="q7a2">Changing the value of <code>a</code> will also change the value of <code>b</code>. This is known as <i>copying by reference</i></label>
+        </div>
       </div>
-      <div class="answer">
-        <input type="radio" name="q7" id="q7a2" value="2" /> 
-        <label for="q7a2">False</label>
-      </div>
-    </div>
     <br />
     <button id="submit">How did I do?</button>
     <div id="results"></div>
