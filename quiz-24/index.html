@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 24</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="html">1. What does this do?<br /><code>&lt;input type="text" name="city" value="Las Vegas"></code></p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1">The <code>value</code> property provides synchronization with a database.</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2">The <code>value</code> property does nothing (nor does it cause an error).</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3">The <code>value</code> property causes a <b>404: File not found</b> error</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4">The <code>value</code> property sets a default value that the user can override.</label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="css">2. Which one of the following matches the first child of all divs that are, themselves, children of any elements with a class of "info"</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1" class="code">div.info.first {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2" class="code">.info div:first-child {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a3" value="3" /> 
+        <label for="q2a3" class="code">*[class="info"].div[position="first"] {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a4" value="4" /> 
+        <label for="q2a4" class="code">first(.info div)</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">3. An input field with a value of <code>readonly</code> prevents the input field from being changed.</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" />
+        <label for="q3a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">4. Given <code>let arr1 = [1,2,3];</code> which one of these will provide a new, different instance of an array?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">let arr2 = arr1;</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">let arr2 = arr1.copy();</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">let arr2 = [...arr1 ];</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">let arr2 = Array.deepCopy(arr1);</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">5. Which of these data types is <i>not</i> a primitive?</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">boolean</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">symbol</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3">array</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4">string</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">6. The <code>size</code> attribute of an input field limits the number of characters that can be entered.</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">7. The CSS pseudo-class selector, <code>a:visited</code> selects all links that have been clicked by the user.</p>
+      <div class="answer">
+          <input type="radio" name="q5" id="q7a1" value="1" /> 
+          <label for="q7a1">True</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a2" value="2" /> 
+          <label for="q7a2">False</label>
+        </div>
+      </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
