@@ -3,9 +3,10 @@ html, *{
   font-size: 1.1em;
 }
 
-.code {
+.code, code {
   font-family: "IBM Plex Mono", "Andale mono", "Courier New", Courier, monospace;
   color: maroon;
+  font-size: .9em;
 }
 
 .incorrect {

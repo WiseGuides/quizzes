@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 25</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="html">1. What input field attribute causes the cursor to be put in a specific form field when the page loads?</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1" class="code">cursor="true"</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2" class="code">onload="this"</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3" class="code">autofocus</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4" class="code">focus="true"</label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="css">2. A CSS <i>pseudo element</i> that matches anything a user selects:</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1" class="code">*::selection {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2" class="code">all[if selected] {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a3" value="3" /> 
+        <label for="q2a3" class="code">onselect="*" {}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a4" value="4" /> 
+        <label for="q2a4" class="code">selected {}</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">3. A string can be searched for a substring using <code>includes</code>.</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" />
+        <label for="q3a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">4. Which one of these is not a real HTML element?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">&lt;main></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">&lt;section></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">&lt;article></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">&lt;item></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">5. Which of these will <i>not</i> add <code>dog</code> to the beginning of <code>let arr = ['cat'];</code>?</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1" class="code">arr.add('dog')</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2" class="code">arr.unshift('dog')</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3" class="code">arr.splice(0,0,'dog')</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="css">6. <code>input[type="tel"]</code> matches all <code>input</code> elements of type <code>tel</code>.</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">7. The array method, <code>shift</code> removes and returns the first element of an array.</p>
+      <div class="answer">
+          <input type="radio" name="q5" id="q7a1" value="1" /> 
+          <label for="q7a1">True</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a2" value="2" /> 
+          <label for="q7a2">False</label>
+        </div>
+      </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
