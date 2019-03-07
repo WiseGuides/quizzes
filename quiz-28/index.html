@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 28</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="javascript">1. <code>"a,b,c".split(',')</code> produces...</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1"class="code">{a: "a", b: "b", c: "c"}</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2"class="code">"a","b","c"</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3"class="code">["a","b","c"]</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4"class="code">"abc"</label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="css">2. <code>@media screen and (min-width: 480px)</code> is an example of...</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">a media query</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">conditional CSS</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a3" value="3" /> 
+        <label for="q2a3">a CSS directive</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a4" value="4" /> 
+        <label for="q2a4">variant CSS</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">3. <code>document.getElementById('info')</code> identifies an element with an <code>id</code> of <code>info</code>:</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" />
+        <label for="q3a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">4. <code>Array.isArray([])</code> returns...</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">true</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">false</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">5.You should link to a CSS stylesheet from within...</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">a <code>script</code> tag</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">the <code>body</code> element</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3">an <code>include</code>d file</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4">the <code>head</code> element</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">6.The <code>&lt;drop-down></code> tag is used to provide a drop-down list.</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">7. What will this code do?<br />
+        <code>let str = "5715423";<br />
+        let double = Array.from(str, num => num *2)</code></p>
+      <div class="answer">
+          <input type="radio" name="q5" id="q7a1" value="1" /> 
+          <label for="q7a1">Produce an error</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a2" value="2" /> 
+          <label for="q7a2">Return <code>undefined</code></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a3" value="3" /> 
+          <label for="q7a3">Return <code>[10,14,2,10,8,4,6]</code></label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a4" value="4" /> 
+          <label for="q7a4">Return <code>11430846</code></label>
+        </div>
+      </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
