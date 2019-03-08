@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 32</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="javascript">1. While <code>JSON.stringify</code> has its own algorithms for converting JavaScript to JSON, you can provide your function (called a replacer) for customizing how that transformation occurs.</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2">False</label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="css">2.Unordered lists use a bullet point by default to set off each list item. To use a square point, instead, you would use...</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1" class="code">list (decoration: square)</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2" class="code">list-point: square</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a3" value="3" /> 
+        <label for="q2a3" class="code">list-style-type: square</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a4" value="4" /> 
+        <label for="q2a4" class="code">list-point: use(square)</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">3. To transform JSON to JavaScript, use...</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" />
+        <label for="q3a1" class="code">JSON.deStringify</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2" class="code">Object.from(JSON)</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a3" value="3" /> 
+        <label for="q3a3" class="code">...JSON</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a4" value="4" /> 
+        <label for="q3a4" class="code">JSON.parse</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">4. HTML is a hierarchical tree. What element is the "root" of that tree?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1" class="code">&lt;tree></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2" class="code">&lt;html></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a3" value="3" /> 
+        <label for="q4a3" class="code">&lt;body></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a4" value="4" /> 
+        <label for="q4a4" class="code">&lt;main></label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="html">5. Given this code, <code>&lt;img src="pic.jpg" width="100"></code>, what value will <code>height</code> have?</p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1">Also <code>100</code></label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">Whatever the original image's <code>height</code> value is
+        </label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3">The browser will calculate the appropriate <code>height</code> value in order to keep the image's aspect ratio the same as the original image's.</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4">The value can't be determined prior to run-time.</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">6. What is a <i>recursive</i> function?</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">One that loops a given number of times</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">One that calls itself</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a3" value="3" /> 
+        <label for="q6a3">One that returns a value of some kind</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a4" value="4" /> 
+        <label for="q6a4">One that is <code>import</code>ed into the original code file</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">7. If a function is declared with 2 parameters, what will happen if it is called with 5 arguments?</p>
+      <div class="answer">
+          <input type="radio" name="q5" id="q7a1" value="1" /> 
+          <label for="q7a1">The last 3 will be ignored.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a2" value="2" /> 
+          <label for="q7a2">An <code>ExcessArguments</code> error will be generated.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a3" value="3" /> 
+          <label for="q7a3">The final 3 arguments will be saved into a variable called <code>rest</code>.</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a4" value="4" /> 
+          <label for="q7a4">No error will be generated, but the code will silently fail.</label>
+        </div>
+      </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
