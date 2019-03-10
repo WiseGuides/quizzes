@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz 35</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|IBM+Plex+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="question">
+      <p class="general">1. Which is the name of a compiler that translates ES6 code into ES5 code?</p>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a1" value="1" /> 
+        <label for="q1a1">lodash</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a2" value="2" /> 
+        <label for="q1a2">express</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a3" value="3" /> 
+        <label for="q1a3">babel</label>
+      </div> 
+      <div class="answer">
+        <input type="radio" name="q1" id="q1a4" value="4" /> 
+        <label for="q1a4">bluebird</label>
+      </div> 
+    </div>
+    <div class="question">
+      <p class="javascript">2. Arrow functions have no default <code>this</code>.</p>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a1" value="1" /> 
+        <label for="q2a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q2" id="q2a2" value="2" /> 
+        <label for="q2a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">3. A <i>closure</i> is an inner function that has access to the variables in the outer (enclosing) function's scope chain.</p>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a1" value="1" />
+        <label for="q3a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q3" id="q3a2" value="2" /> 
+        <label for="q3a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">4.Will <code>false == 0</code> and <code>false === 0</code> return the same value?</p>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a1" value="1" /> 
+        <label for="q4a1">Yes</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q4" id="q4a2" value="2" /> 
+        <label for="q4a2">No</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">5. Given this code, <code>let arr = [1,2,3];</code>, what will the value of <code>arr.length</code> be after executing this code? <code>arr[10] = 11</code></p>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a1" value="1" /> 
+        <label for="q5a1"><code>OutOfBounds</code> exception</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a2" value="2" /> 
+        <label for="q5a2">4</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a3" value="3" /> 
+        <label for="q5a3">10</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q5" id="q5a4" value="4" /> 
+        <label for="q5a4">11</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="general">6. Microservice architectural apps are composed of many smaller, independent applications running in their own memory space.</p>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a1" value="1" /> 
+        <label for="q6a1">True</label>
+      </div>
+      <div class="answer">
+        <input type="radio" name="q6" id="q6a2" value="2" /> 
+        <label for="q6a2">False</label>
+      </div>
+    </div>
+    <div class="question">
+      <p class="javascript">7. Given an object, <code>obj</code>, which code snippet would return the number of all keys in the object?</p>
+      <div class="answer">
+          <input type="radio" name="q5" id="q7a1" value="1" /> 
+          <label for="q7a1" class="code">obj.length</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a2" value="2" /> 
+          <label for="q7a2" class="code">obj.keys.length</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a3" value="3" /> 
+          <label for="q7a3" class="code">Object.keys().length</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="q7" id="q7a4" value="4" /> 
+          <label for="q7a4" class="code">[...obj].length</label>
+        </div>
+      </div>
+    <br />
+    <button id="submit">How did I do?</button>
+    <div id="results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
