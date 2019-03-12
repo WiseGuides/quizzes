@@ -1,0 +1,64 @@
+html, *{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 1.1em;
+}
+
+.code, code {
+  font-family: "IBM Plex Mono", "Andale mono", "Courier New", Courier, monospace;
+  color: maroon;
+  font-size: .9em;
+}
+
+.incorrect {
+	color: silver;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.javascript::after {
+  content: "JavaScript";
+  margin-left: 8px;
+  font-size: .6em;
+  background-color: #2980B9;
+  color: white;
+}
+
+.css::after {
+  content: "CSS";
+  margin-left: 8px;
+  font-size: .6em;
+  background-color: #229954;
+  color: white;
+}
+
+.html::after {
+  content: "HTML";
+  margin-left: 8px;
+  font-size: .6em;
+  background-color: #900C3F;
+  color: white;
+}
+
+.general::after {
+  content: "GENERAL";
+  margin-left: 8px;
+  font-size: .6em;
+  background-color: #5F6A6A;
+  color: white;
+}
+
+.vscode::after {
+  content: "VS Code";
+  margin-left: 8px;
+  font-size: .6em;
+  background-color: #ff33cc;
+  color: white;
+}
+
+.correct::after {
+  content: url('./green-check.png');
+  margin-left: 8px;
+}
